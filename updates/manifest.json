@@ -12,6 +12,19 @@
       ],
       "version": "3.2.1-c0b0e31",
       "incremental": 0
+    },
+    {
+      "datetime": 1791659801,
+      "device": "a23",
+      "filename": "UN1CA_3.2.1-29e35c1_20261010_a23-sign.zip",
+      "id": "1ed050cec03b957a00b957432e9f43924559c18c814ffbe2734b6b11e78526eb",
+      "patch": "2026-08-05",
+      "size": 5451197688,
+      "urls": [
+        "https://pixeldrain.com/api/file/D4SExnsM?download"
+      ],
+      "version": "3.2.1-29e35c1",
+      "incremental": 0
     }
   ]
 }
