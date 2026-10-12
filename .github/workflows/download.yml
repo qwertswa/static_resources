@@ -1,3 +1,4 @@
+
 name: Check firmware update
 
 on:
@@ -5,6 +6,9 @@ on:
   schedule:
     - cron: "0 0 10,20,28 * *"
   push:
+
+permissions:
+  contents: write
 
 jobs:
   update:
@@ -15,23 +19,40 @@ jobs:
         uses: actions/checkout@v6
         with:
           submodules: true
+          fetch-depth: 0
+          token: ${{ secrets.GIT_TOKEN }}
 
       - name: Fetch new Play Integrity Config
         run: |
           bash autopif4.sh
-          mv pif.json pif/pif.json
+          if [ -f pif.json ]; then
+            mkdir -p pif
+            mv pif.json pif/pif.json
+          else
+            echo "pif.json tidak dibuat oleh script."
+            exit 1
+          fi
 
       - name: Update current version
+        id: update
         run: |
           git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git pull origin ${{github.ref}} --ff-only
-          git add pif/pif.json | true
-          git commit -m "Update Play Integrity Fix config"
+
+          git add pif/pif.json
+
+          if git diff --cached --quiet; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "Tidak ada perubahan pada pif/pif.json."
+          else
+            git commit -m "Update Play Integrity Fix config"
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
 
       - name: Push changes to repo
+        if: steps.update.outputs.changed == 'true'
         uses: ad-m/github-push-action@master
         with:
-          tags: true
           github_token: ${{ secrets.GIT_TOKEN }}
-
+          branch: ${{ github.ref_name }}
+          tags: true
