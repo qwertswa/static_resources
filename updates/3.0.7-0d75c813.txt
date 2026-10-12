@@ -1,5 +1,0 @@
-• Updated source firmware to S901EXXSDGZB6/S901BXXSMGZB2
-• February security patches (05/02/2026)
-• Updated bootloader spoofer
-• Fixed Samsung Camera filters issues
-• Minor adjustments & fixes

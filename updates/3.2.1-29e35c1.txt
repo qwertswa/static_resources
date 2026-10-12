@@ -1,0 +1,4 @@
+UN1CA 3.2.1-29e35c1 For a23
+
+• Include Kernel ZestUI
+• Fix updater un1ca issue root detect

@@ -1,0 +1,10 @@
+UN1CA 3.2.1-c0b0e31 For a23
+
+• Sync with upstream UN1CA changes (ed567b1)
+• Block installation on OneUI 4 BL
+• Enabled Single take features
+• Fixed custom wallpaper bug
+• Add snap init for galaxy ai work
+• Fixed adaptive clock
+• Delete useless feature
+• Minor adjustment & fixed

@@ -1,4 +1,0 @@
-• Updated source firmware to S901EXXSCGZA2/S901BXXSLGZA1
-• January security patches (01/01/2026)
-• Updated bootloader spoofer
-• (A73) Fixed camera issues
