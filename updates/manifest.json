@@ -12,6 +12,19 @@
       ],
       "version": "3.2.2-6113ad7",
       "incremental": 0
+    },
+    {
+      "datetime": 1791915149,
+      "device": "a23xq",
+      "filename": "UN1CA_3.2.2-6113ad7_20261013_a23xq-sign.zip",
+      "id": "243980209a4cc1763e561209d67152df2a1c28d6d1dca2d5ea1a28a64dabd007",
+      "patch": "2026-08-05",
+      "size": 5468366915,
+      "urls": [
+        "https://pixeldrain.com/api/file/KLdxKYSs?download"
+      ],
+      "version": "3.2.2-6113ad7",
+      "incremental": 0
     }
   ]
 }

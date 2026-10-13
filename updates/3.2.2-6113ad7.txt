@@ -1,4 +1,4 @@
-UN1CA 3.2.2-6113ad7 For a23
+UN1CA 3.2.2-6113ad7 For a23xq
 
 • Adds adaptive refresh rate props
 • Update new patch camera
