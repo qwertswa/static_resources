@@ -1,1 +1,6 @@
-UN1CA 3.2.2-ebfa056 For a23xq
+UN1CA 3.2.2-ebfa056
+
+• Adds adaptive refresh rate props
+• Update new patch camera
+• (a23xq) Fixed refresh rate 120
+• (a23xq) Adds extra brightness support
