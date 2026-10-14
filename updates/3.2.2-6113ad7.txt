@@ -1,6 +1,0 @@
-UN1CA 3.2.2-6113ad7
-
-• Adds adaptive refresh rate props
-• Update new patch camera
-• (a23xq) Fixed refresh rate 120
-• (a23xq) Adds extra brightness support
