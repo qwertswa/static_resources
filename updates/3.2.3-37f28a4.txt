@@ -1,0 +1,8 @@
+UN1CA 3.2.3-37f28a4
+
+• (A23) Adds Varian support A235M and A235N
+• (A23) Delete snap init
+• (A23xq) Adds Varian support A236B
+• Update debload, Delete useles apk and file
+• Adds new feature "Performance Mode" (experiment)
+• Minor adjustments & fixes
