@@ -1,1 +1,4 @@
 UN1CA 3.2.3-d67f51d
+
+• Update blur intensity
+• Update build OTA update for next update
