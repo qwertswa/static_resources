@@ -1,0 +1,6 @@
+UN1CA 3.2.4.By_Zest-bf76a08
+
+• (A23xq) Fixed NFC
+• Change wallpaper s25 to s26
+• Improve blur for blur intensity
+• (A23) Adds dvfs stock
